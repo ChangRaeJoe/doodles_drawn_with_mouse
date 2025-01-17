@@ -1,0 +1,22 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00b7ff;
+}
+
+/* button design */
+.btnBox {
+    display: inline-flex;
+    align-content: center;
+    width: 400px;
+    height: 75px;
+}
+.btnBox > button {
+    width: calc(100% / 3);
+    margin: 2px;
+}
+
+/* list design */

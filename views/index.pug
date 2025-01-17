@@ -3,3 +3,11 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  .btnBox
+    button.startBtn 시작
+    button.pauseBtn 중지
+    button.stopBtn 정지
+  ul#list
+    li Item A 
+    li Item B
+  script(src="/javascripts/sse.js") 
